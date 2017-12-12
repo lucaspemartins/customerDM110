@@ -18,6 +18,7 @@ public class RestApplication extends Application {
 		Set<Class<?>> classes = new HashSet<>();
 		classes.add(HelloServiceImpl.class);
 		classes.add(InventoryServiceImpl.class);
+		classes.add(CustomerServiceImpl.class);
 		return classes;
 	}
 }
